@@ -25,12 +25,13 @@ SECRET_KEY = '-1w@rvnkatx(!qiw8)$97w)lg6j8+5rwwe=vbrf-ll%dpaizn&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["5b8fdb2c6bde4b76bf000a28a5562c46.vfs.cloud9.eu-west-1.amazonaws.com"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'movies.apps.MoviesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
