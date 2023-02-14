@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["5b8fdb2c6bde4b76bf000a28a5562c46.vfs.cloud9.eu-west-1.amazonaw
 
 INSTALLED_APPS = [
     'movies.apps.MoviesConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -119,3 +120,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_REDIRECT_URL = '/'
